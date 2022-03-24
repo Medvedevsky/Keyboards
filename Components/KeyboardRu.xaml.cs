@@ -18,9 +18,9 @@ namespace WpfApp.Components
     /// <summary>
     /// Interaction logic for Keyboard.xaml
     /// </summary>
-    public partial class Keyboard : UserControl
+    public partial class KeyboardRu : UserControl
     {
-        public Keyboard()
+        public KeyboardRu()
         {
             InitializeComponent();
         }
