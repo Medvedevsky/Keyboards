@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace WpfApp.Components
 {
     /// <summary>
-    /// Interaction logic for Tenkeyless.xaml
+    /// Interaction logic for KeyboardEng.xaml
     /// </summary>
-    public partial class Tenkeyless : UserControl
+    public partial class KeyboardEng : UserControl
     {
-        public Tenkeyless()
+        public KeyboardEng()
         {
             InitializeComponent();
         }
