@@ -218,7 +218,7 @@ namespace WpfApp.Components
 
         private void Button_Click_39(object sender, RoutedEventArgs e)
         {
-            KeyboardInput += ".";
+            KeyboardInput += isCapsLock == true ? "Ё" : "ё";
         }
 
         private void Button_Click_40(object sender, RoutedEventArgs e)
@@ -253,15 +253,20 @@ namespace WpfApp.Components
 
         private void Button_Click_46(object sender, RoutedEventArgs e)
         {
-            KeyboardInput += "-";
+            KeyboardInput += isCapsLock == true ? "Ё" : "ё";
         }
 
         private void Button_Click_47(object sender, RoutedEventArgs e)
         {
-            KeyboardInput += "0";
+            KeyboardInput += "-";
         }
 
         private void Button_Click_48(object sender, RoutedEventArgs e)
+        {
+            KeyboardInput += "0";
+        }
+
+        private void Button_Click_49(object sender, RoutedEventArgs e)
         {
             int temp = KeyboardInput.Length - 1;
             KeyboardInput = temp >= 0 ? KeyboardInput.Remove(temp) : KeyboardInput;
