@@ -13,8 +13,9 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
-        <TextBox Grid.Row="0" MaxLength="250" Background="LightGray" Height="50" VerticalAlignment="Bottom"></TextBox>
-        <uc:KeyboardRu Grid.Row="1"/>
+        <uc:KeyboardRu x:Name="ruKeyboard"  Grid.Row="1"/>
+        <TextBox x:Name="textBox" Grid.Row="0" MaxLength="250" Background="LightGray" Height="50" VerticalAlignment="Bottom" 
+                 Text="{Binding KeyboardInput, ElementName=ruKeyboard, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextChanged="TextBox_TextChanged"></TextBox>
 
     </Grid>
 </Window>
