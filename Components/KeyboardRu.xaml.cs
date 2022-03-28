@@ -14,15 +14,15 @@ namespace WpfApp.Components
         private bool engLanguage = false;
         private bool symbolKeyboard = false;
 
-        public string KeyboardInput
+        public string KeyboardRuInput
         {
-            get { return (string)GetValue(KeyboardInputProperty); }
-            set { SetValue(KeyboardInputProperty, value); }
+            get { return (string)GetValue(KeyboardRuInputProperty); }
+            set { SetValue(KeyboardRuInputProperty, value); }
         }
 
-        // Using a DependencyProperty as the backing store for KeyboardInput.  This enables animation, styling, binding, etc...
-        public static readonly DependencyProperty KeyboardInputProperty =
-            DependencyProperty.Register("KeyboardInput", typeof(string), typeof(KeyboardRu), new PropertyMetadata(""));
+        // Using a DependencyProperty as the backing store for KeyboardRuInput.  This enables animation, styling, binding, etc...
+        public static readonly DependencyProperty KeyboardRuInputProperty =
+            DependencyProperty.Register("KeyboardRuInput", typeof(string), typeof(KeyboardRu), new PropertyMetadata(""));
 
 
         public KeyboardRu()
@@ -32,12 +32,12 @@ namespace WpfApp.Components
 
         private void Button_Click_Key(object sender, RoutedEventArgs e)
         {
-            //KeyboardInput += ((TextBlock)((Viewbox)((Button)sender).Content).Child).Text;
+            //KeyboardRuInput += ((TextBlock)((Viewbox)((Button)sender).Content).Child).Text;
 
             Button buttonKey = (Button)sender;
             Viewbox viewBox = (Viewbox)buttonKey.Content;
             TextBlock keyContent = (TextBlock)viewBox.Child;
-            KeyboardInput += keyContent.Text;
+            KeyboardRuInput += keyContent.Text;
         }
 
         private void Button_Click_CapsLock(object sender, RoutedEventArgs e)
@@ -61,13 +61,13 @@ namespace WpfApp.Components
 
         private void Button_Click_Delete(object sender, RoutedEventArgs e)
         {
-            int countInput = KeyboardInput.Length - 1;
-            KeyboardInput = countInput >= 0 ? KeyboardInput.Remove(countInput) : KeyboardInput;
+            int countInput = KeyboardRuInput.Length - 1;
+            KeyboardRuInput = countInput >= 0 ? KeyboardRuInput.Remove(countInput) : KeyboardRuInput;
         }
 
         private void Button_Click_Space(object sender, RoutedEventArgs e)
         {
-            KeyboardInput += " ";
+            KeyboardRuInput += " ";
         }
 
         private void Button_Click_SymbolKeyboard(object sender, RoutedEventArgs e)
