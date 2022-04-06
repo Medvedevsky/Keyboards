@@ -49,7 +49,7 @@ namespace WpfApp.Components
             
             SwitchLanguageRu = new MyCommand(() => tabControl.SelectedIndex = (int)KeyboardType.KeyboardRu);
             SwitchLanguageEng = new MyCommand(() => tabControl.SelectedIndex = (int)KeyboardType.KeyboardEng);
-            SwitchLanguageSymbol = new MyCommand(() => SwitchSymbol());
+            SwitchSymbols = new MyCommand(() => SwitchToSymbolKeyboard());
             SwitchKeyboard = new MyCommand(() => SwitchLanguage());
         }
 
@@ -74,10 +74,10 @@ namespace WpfApp.Components
         }
 
 
-        public ICommand SwitchLanguageSymbol
+        public ICommand SwitchSymbols
         {
-            get { return (ICommand)GetValue(SwitchLanguageSymbolProperty); }
-            set { SetValue(SwitchLanguageSymbolProperty, value); }
+            get { return (ICommand)GetValue(SwitchSymbolsProperty); }
+            set { SetValue(SwitchSymbolsProperty, value); }
         }
 
 
@@ -113,9 +113,9 @@ namespace WpfApp.Components
 
 
 
-        public static readonly DependencyProperty SwitchLanguageSymbolProperty =
+        public static readonly DependencyProperty SwitchSymbolsProperty =
             DependencyProperty.Register(
-                "SwitchLanguageSymbol", 
+                "SwitchSymbols", 
                 typeof(ICommand), 
                 typeof(KeyboardsSwitcher), 
                 new PropertyMetadata(null));
@@ -128,7 +128,7 @@ namespace WpfApp.Components
                 typeof(KeyboardsSwitcher), 
                 new PropertyMetadata(""));
 
-        public void SwitchSymbol()
+        public void SwitchToSymbolKeyboard()
         {
             _pastIndex = tabControl.SelectedIndex;
             symbolKeyboard.PastKeyboard = _pastIndex;

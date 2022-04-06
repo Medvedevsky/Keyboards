@@ -13,7 +13,7 @@
                 <local:KeyboardRu x:Name="keyboardRu" 
                                   KeyboardRuInput="{Binding KeyboardInput, ElementName=switcher, Mode=TwoWay}" 
                                   SwitchToEngKeyboard="{Binding SwitchLanguageEng, ElementName=switcher}" 
-                                  SwinchToSymbolKeyboard="{Binding SwitchLanguageSymbol, ElementName=switcher}"/>
+                                  SwinchToSymbolKeyboard="{Binding SwitchSymbols, ElementName=switcher}"/>
             </TabItem>
             <TabItem Visibility="Collapsed" >
                 <local:SymbolKeyboard x:Name="symbolKeyboard" 
@@ -24,7 +24,7 @@
                 <local:KeyboardEng x:Name="engKeyboard" 
                                    KeyboardEngInput="{Binding KeyboardInput, ElementName=switcher, Mode=TwoWay}"
                                    SwitchToRuKeyboard="{Binding SwitchLanguageRu, ElementName=switcher}"
-                                   SwitchToSymbolKeyboard="{Binding SwitchLanguageSymbol, ElementName=switcher}"/>
+                                   SwitchToSymbolKeyboard="{Binding SwitchSymbols, ElementName=switcher}"/>
             </TabItem>
         </TabControl>
     </Grid>
