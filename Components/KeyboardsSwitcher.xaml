@@ -5,8 +5,27 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfApp.Components"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             x:Name="switcher"
+             d:DesignHeight="350" d:DesignWidth="1000" >
     <Grid>
-            
+        <TabControl x:Name="tabControl">
+            <TabItem Visibility="Collapsed">
+                <local:KeyboardRu x:Name="keyboardRu" 
+                                  KeyboardRuInput="{Binding KeyboardInput, ElementName=switcher, Mode=TwoWay}" 
+                                  SwitchToEngKeyboard="{Binding SwitchLanguageEng, ElementName=switcher}" 
+                                  SwinchToSymbolKeyboard="{Binding SwitchLanguageSymbol, ElementName=switcher}"/>
+            </TabItem>
+            <TabItem Visibility="Collapsed" >
+                <local:SymbolKeyboard x:Name="symbolKeyboard" 
+                                      SymbolKeyboardInput="{Binding KeyboardInput, ElementName=switcher, Mode=TwoWay}"
+                                      SwitchKeyboardLanguage="{Binding SwitchKeyboard, ElementName=switcher}"/>
+            </TabItem>
+            <TabItem Visibility="Collapsed">
+                <local:KeyboardEng x:Name="engKeyboard" 
+                                   KeyboardEngInput="{Binding KeyboardInput, ElementName=switcher, Mode=TwoWay}"
+                                   SwitchToRuKeyboard="{Binding SwitchLanguageRu, ElementName=switcher}"
+                                   SwitchToSymbolKeyboard="{Binding SwitchLanguageSymbol, ElementName=switcher}"/>
+            </TabItem>
+        </TabControl>
     </Grid>
 </UserControl>
