@@ -28,199 +28,199 @@
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Button Grid.Column="0" Grid.Row="0"  Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key" >
+        <Button Grid.Column="0" Grid.Row="0"  Margin="3" Click="Button_Click_Key" >
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Й"/>
+                <TextBlock Text="й"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="1" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="1" Grid.Row="0" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Ц"/>
+                <TextBlock Text="ц"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="2" Grid.Row="0"  Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="2" Grid.Row="0"  Margin="3" Click="Button_Click_Key">
         <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="У"/>
+            <TextBlock Text="у"/>
         </Viewbox>
         </Button>
-        <Button Grid.Column="3" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="3" Grid.Row="0" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="К"/>
+                <TextBlock Text="к"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="4" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="4" Grid.Row="0" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Е"/>
+                <TextBlock Text="е"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="5" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="5" Grid.Row="0" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Н"/>
+                <TextBlock Text="н"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="6" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="6" Grid.Row="0" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center"> 
-                <TextBlock Text="Г"/>                                                           
+                <TextBlock Text="г"/>                                                           
             </Viewbox>                                                                          
         </Button>
-        <Button Grid.Column="7" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="7" Grid.Row="0" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center"> 
-                <TextBlock Text="Ш"/>                                                           
+                <TextBlock Text="ш"/>                                                           
             </Viewbox>                                                                          
         </Button>
-        <Button Grid.Column="8" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="8" Grid.Row="0" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center"> 
-                <TextBlock Text="Щ"/>                                                           
+                <TextBlock Text="щ"/>                                                           
             </Viewbox>                                                                          
         </Button>
-        <Button Grid.Column="9" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="9" Grid.Row="0" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="З"/>
+                <TextBlock Text="з"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="10" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="10" Grid.Row="0" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Х"/>
-            </Viewbox>
-        </Button>
-
-
-        <Button Grid.Column="0" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
-            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Ф"/>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="1" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
-            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Ы"/>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="2" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
-            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="В"/>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="3" Grid.Row="1"  Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
-            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="А"/>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="4" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
-            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="П"/>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="5" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
-            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Р"/>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="6" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
-            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="О"/>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="7" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
-            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Л"/>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="8" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
-            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Д"/>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="9" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
-            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Ж"/>
-            </Viewbox>
-        </Button>
-        <Button Grid.Column="10" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
-            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Э"/>
+                <TextBlock Text="х"/>
             </Viewbox>
         </Button>
 
 
-        <Button Grid.Column="0" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="0" Grid.Row="1" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Я"/>
+                <TextBlock Text="ф"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="1" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="1" Grid.Row="1" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Ч"/>
+                <TextBlock Text="ы"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="2" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="2" Grid.Row="1" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="С"/>
+                <TextBlock Text="в"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="3" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="3" Grid.Row="1"  Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="М"/>
+                <TextBlock Text="а"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="4" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="4" Grid.Row="1" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="И"/>
+                <TextBlock Text="п"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="5" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="5" Grid.Row="1" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Т"/>
+                <TextBlock Text="р"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="6" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="6" Grid.Row="1" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Ь"/>
+                <TextBlock Text="о"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="7" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="7" Grid.Row="1" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Б"/>
+                <TextBlock Text="л"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="8" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="8" Grid.Row="1" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Ю"/>
+                <TextBlock Text="д"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="9" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="9" Grid.Row="1" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Ъ"/>
+                <TextBlock Text="ж"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="10" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+        <Button Grid.Column="10" Grid.Row="1" Margin="3" Click="Button_Click_Key">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="Ё"/>
+                <TextBlock Text="э"/>
             </Viewbox>
         </Button>
 
 
-        <Button Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Margin="3" Background="Gray" Foreground="White" FontWeight="Medium" Click="Button_Click_ChangeLanguage">
+        <Button Grid.Column="0" Grid.Row="2" Margin="3" Click="Button_Click_Key">
+            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="я"/>
+            </Viewbox>
+        </Button>
+        <Button Grid.Column="1" Grid.Row="2" Margin="3" Click="Button_Click_Key">
+            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="ч"/>
+            </Viewbox>
+        </Button>
+        <Button Grid.Column="2" Grid.Row="2" Margin="3" Click="Button_Click_Key">
+            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="с"/>
+            </Viewbox>
+        </Button>
+        <Button Grid.Column="3" Grid.Row="2" Margin="3" Click="Button_Click_Key">
+            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="м"/>
+            </Viewbox>
+        </Button>
+        <Button Grid.Column="4" Grid.Row="2" Margin="3" Click="Button_Click_Key">
+            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="и"/>
+            </Viewbox>
+        </Button>
+        <Button Grid.Column="5" Grid.Row="2" Margin="3" Click="Button_Click_Key">
+            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="т"/>
+            </Viewbox>
+        </Button>
+        <Button Grid.Column="6" Grid.Row="2" Margin="3" Click="Button_Click_Key">
+            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="ь"/>
+            </Viewbox>
+        </Button>
+        <Button Grid.Column="7" Grid.Row="2" Margin="3" Click="Button_Click_Key">
+            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="б"/>
+            </Viewbox>
+        </Button>
+        <Button Grid.Column="8" Grid.Row="2" Margin="3" Click="Button_Click_Key">
+            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="ю"/>
+            </Viewbox>
+        </Button>
+        <Button Grid.Column="9" Grid.Row="2" Margin="3" Click="Button_Click_Key">
+            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="ъ"/>
+            </Viewbox>
+        </Button>
+        <Button Grid.Column="10" Grid.Row="2" Margin="3" Click="Button_Click_Key">
+            <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="ё"/>
+            </Viewbox>
+        </Button>
+
+
+        <Button Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Margin="3"  Command="{Binding SwitchToEngKeyboard, ElementName=KeyboardRU}">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <TextBlock Text="🌐"/>
             </Viewbox>
         </Button>
 
-        <Button Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="5"  Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Space">
+        <Button Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="5"  Margin="3" Click="Button_Click_Space">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <TextBlock Text="␣"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="7" Grid.Row="3" Grid.ColumnSpan="2" Margin="3" Background="Gray" Foreground="White" FontWeight="Medium" Click="Button_Click_CapsLock">
+        <Button Grid.Column="7" Grid.Row="3" Grid.ColumnSpan="2" Margin="3"  Click="Button_Click_CapsLock">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <TextBlock Text="⮉"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="9" Grid.Row="3"  Margin="3" Background="Gray" Foreground="White" FontWeight="Medium" Click="Button_Click_SymbolKeyboard">
+        <Button Grid.Column="9" Grid.Row="3"  Margin="3"  Command="{Binding SwinchToSymbolKeyboard, ElementName=KeyboardRU}">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                <TextBlock Text="123"/>
+                <TextBlock Text="?123"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="10" Grid.Row="3" Grid.ColumnSpan="2" Margin="3" Background="Gray" Foreground="White" FontWeight="Medium" Click="Button_Click_Delete">
+        <Button Grid.Column="10" Grid.Row="3" Grid.ColumnSpan="2" Margin="3"  Click="Button_Click_Delete">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <TextBlock Text="⌫"/>
             </Viewbox>
