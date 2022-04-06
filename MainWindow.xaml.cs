@@ -15,7 +15,7 @@ namespace WpfApp
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
-            textBox.Text = symbolKeyboard.SymbolKeyboardInput;
+            textBox.Text = keyboard.KeyboardInput;
         }
     }
 }

@@ -3,8 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:uc="clr-namespace:WpfApp.Components"
         xmlns:local="clr-namespace:WpfApp"
+        xmlns:uc="clr-namespace:WpfApp.Components"
         mc:Ignorable="d"
         Title="MainWindow" Height="644" Width="1000">
     <Grid>
@@ -13,12 +13,15 @@
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
-        <!--<uc:KeyboardRu x:Name="ruKeyboard"  Grid.Row="1"/>
-        <TextBox x:Name="textBox" Grid.Row="0" MaxLength="250" Background="LightGray" Height="50" VerticalAlignment="Bottom" 
-                 Text="{Binding KeyboardRuInput, ElementName=ruKeyboard, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextChanged="TextBox_TextChanged"/>-->
-
-        <uc:SymbolKeyboard x:Name="symbolKeyboard" Grid.Row="1"/>
-        <TextBox x:Name="textBox" Grid.Row="0" MaxLength="250" Background="LightGray" Height="50" VerticalAlignment="Bottom" Text="{Binding SymbolKeyboardInput, ElementName=symbolKeyboard, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" TextChanged="TextBox_TextChanged"/>
-
+        <uc:KeyboardsSwitcher x:Name="keyboard" Grid.Row="1"/>
+        <TextBox x:Name="textBox" 
+                 Grid.Row="0" 
+                 MaxLength="250" 
+                 Background="LightGray" 
+                 Height="50" 
+                 VerticalAlignment="Bottom" 
+                 Text="{Binding KeyboardInput, ElementName=keyboard, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                 TextChanged="TextBox_TextChanged"/>
+        
     </Grid>
 </Window>
