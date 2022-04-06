@@ -4,8 +4,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfApp.Components"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             mc:Ignorable="d"
+             x:Name="symbolKeyboard"
+             d:DesignHeight="350" d:DesignWidth="1000">
     <Grid>
         <Grid>
 
@@ -29,173 +30,173 @@
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="0" Grid.Row="0"  Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="0" Grid.Row="0"  Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="1"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="1" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="1" Grid.Row="0" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="2"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="2" Grid.Row="0"  Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="2" Grid.Row="0"  Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="3"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="3" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="3" Grid.Row="0" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="4"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="4" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="4" Grid.Row="0" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="5"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="5" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="5" Grid.Row="0" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="6"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="6" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="6" Grid.Row="0" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="7"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="7" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="7" Grid.Row="0" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="8"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="8" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="8" Grid.Row="0" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="9"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="9" Grid.Row="0" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="9" Grid.Row="0" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="0"/>
                 </Viewbox>
             </Button>
 
 
-            <Button Grid.Column="0" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="0" Grid.Row="1" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="-"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="1" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="1" Grid.Row="1" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="/"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="2" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="2" Grid.Row="1" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text=":"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="3" Grid.Row="1"  Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="3" Grid.Row="1"  Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text=";"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="4" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="4" Grid.Row="1" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="("/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="5" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="5" Grid.Row="1" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text=")"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="6" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="6" Grid.Row="1" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="+"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="7" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="7" Grid.Row="1" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="%"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="8" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="8" Grid.Row="1" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="@"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="9" Grid.Row="1" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="9" Grid.Row="1" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="="/>
                 </Viewbox>
             </Button>
 
 
-            <Button Grid.Column="0" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="0" Grid.Row="2" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="#"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="1" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="1" Grid.Row="2" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="\"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="2" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="2" Grid.Row="2" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="|"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="3" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="3" Grid.Row="2" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="~"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="4" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="4" Grid.Row="2" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="*"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="5" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="5" Grid.Row="2" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="["/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="6" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="6" Grid.Row="2" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="]"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="7" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="7" Grid.Row="2" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="^"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="8" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="8" Grid.Row="2" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="&quot;"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="9" Grid.Row="2" Margin="3" Background="Black" Foreground="White" FontWeight="Medium" Click="Button_Click_Key">
+            <Button Grid.Column="9" Grid.Row="2" Margin="3"  Click="Button_Click_Key">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="&amp;"/>
                 </Viewbox>
             </Button>
 
 
-            <Button Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Margin="3" Background="Gray" Foreground="White" FontWeight="Medium" Click="Button_Click_ChangeKeyboard">
+            <Button Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="2" Margin="3"  Command="{Binding SwitchKeyboardLanguage, ElementName=symbolKeyboard}">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="АБВ"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="6"  Margin="3" Background="Black" Foreground="White" FontWeight="Medium"  Click="Button_Click_Space">
+            <Button Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="6"  Margin="3"   Click="Button_Click_Space">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="␣"/>
                 </Viewbox>
             </Button>
-            <Button Grid.Column="8" Grid.Row="3" Grid.ColumnSpan="2" Margin="3" Background="Gray" Foreground="White" FontWeight="Medium" Click="Button_Click_Delete">
+            <Button Grid.Column="8" Grid.Row="3" Grid.ColumnSpan="2" Margin="3"  Click="Button_Click_Delete">
                 <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                     <TextBlock Text="⌫"/>
                 </Viewbox>
