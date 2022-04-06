@@ -100,8 +100,8 @@ namespace WpfApp.Components
         }
         private void Button_Click_Delete(object sender, RoutedEventArgs e)
         {
-            int countInput = KeyboardEngInput.Length - 1;
-            KeyboardEngInput = countInput >= 0 ? KeyboardEngInput.Remove(countInput) : KeyboardEngInput;
+            int position = KeyboardEngInput.Length - 1;
+            KeyboardEngInput = position >= 0 ? KeyboardEngInput.Remove(position) : KeyboardEngInput;
         }
 
         private void Button_Click_Space(object sender, RoutedEventArgs e)
