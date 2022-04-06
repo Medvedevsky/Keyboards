@@ -26,6 +26,12 @@ namespace WpfApp.Components
             InitializeComponent();
         }
 
+        public int PastKeyboard
+        {
+            get { return (int)GetValue(PastKeyboardProperty); }
+            set { SetValue(PastKeyboardProperty, value); }
+        }
+
         public ICommand SwitchKeyboardLanguage
         {
             get { return (ICommand)GetValue(SwitchKeyboardLanguageProperty); }
@@ -37,6 +43,15 @@ namespace WpfApp.Components
             get { return (string)GetValue(SymbolKeyboardInputProperty); }
             set { SetValue(SymbolKeyboardInputProperty, value); }
         }
+
+
+        public static readonly DependencyProperty PastKeyboardProperty =
+            DependencyProperty.Register(
+                "PastKeyboard", 
+                typeof(int), 
+                typeof(SymbolKeyboard), 
+                new PropertyMetadata(null));
+
 
         public static readonly DependencyProperty SwitchKeyboardLanguageProperty =
             DependencyProperty.Register(
@@ -69,6 +84,18 @@ namespace WpfApp.Components
         private void Button_Click_Space(object sender, RoutedEventArgs e)
         {
             SymbolKeyboardInput += " ";
+        }
+
+        private void Grid_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            if (IsVisible)
+            {
+                Button button = languageBtn;
+                Viewbox viewBox = (Viewbox)button.Content;
+                TextBlock keyContent = (TextBlock)viewBox.Child;
+
+                keyContent.Text = PastKeyboard == 2 ? "abc" : "абв";
+            }
         }
     }
 }
