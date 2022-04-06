@@ -5,8 +5,243 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfApp.Components"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             x:Name="keyboardEng"
+             d:DesignHeight="350" d:DesignWidth="1000">
+    <!--<UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../ResourceDictionaries/KeyboardCore.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>-->
     <Grid>
-            
+        <Grid Margin="10" x:Name="mainGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Margin="3" Grid.Column="0" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="q" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="1" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="w" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="2" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="e" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="3" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="r" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="4" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="t" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="5" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="y" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="6" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="u" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="7" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="i" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="8" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="o" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="9" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="p" Height="18" />
+                    </Viewbox>
+                </Button>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.5*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="0.5*"/>
+                </Grid.ColumnDefinitions>
+                <Button Margin="3" Grid.Column="1" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="a" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="2" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="s" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="3" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="d" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="4" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="f" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="5" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="g" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="6" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="h" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="7" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="j" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="8" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="k" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="9" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="l" Height="18" />
+                    </Viewbox>
+                </Button>
+            </Grid>
+
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1.1*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="1.9*"/>
+                </Grid.ColumnDefinitions>
+                <Button Margin="3" Grid.Column="0" Click="Button_Click_CapsLock">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="⮉" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="1" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="z" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="2" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="x" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="3" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="c" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="4" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="v" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="5" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="b" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="6" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="n" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="7" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="m" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="8" Click="Button_Click_Delete">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="⌫" Height="18" />
+                    </Viewbox>
+                </Button>
+            </Grid>
+
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <Button Margin="3" Grid.Column="0" Command="{Binding SwitchToRuKeyboard, ElementName=keyboardEng}">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="🌐" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="1" Click="Button_Click_Space">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="␣" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="2" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="." Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="3" Click="Button_Click_Key">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="@" Height="18" />
+                    </Viewbox>
+                </Button>
+                <Button Margin="3" Grid.Column="4" Command="{Binding SwitchToSymbolKeyboard, ElementName=keyboardEng}">
+                    <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="?123" Height="18" />
+                    </Viewbox>
+                </Button>
+            </Grid>
+        </Grid>
     </Grid>
 </UserControl>
