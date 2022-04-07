@@ -7,15 +7,8 @@
              mc:Ignorable="d" 
              x:Name="keyboardEng"
              d:DesignHeight="350" d:DesignWidth="1000">
-    <!--<UserControl.Resources>
-        <ResourceDictionary>
-            <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="../ResourceDictionaries/KeyboardCore.xaml" />
-            </ResourceDictionary.MergedDictionaries>
-        </ResourceDictionary>
-    </UserControl.Resources>-->
     <Grid>
-        <Grid Margin="10" x:Name="mainGrid">
+        <Grid x:Name="mainGrid">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
@@ -151,7 +144,7 @@
 
             <Grid Grid.Row="2">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="1.1*"/>
+                    <ColumnDefinition Width="1.5*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
@@ -159,7 +152,7 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="1.9*"/>
+                    <ColumnDefinition Width="1.5*"/>
                 </Grid.ColumnDefinitions>
                 <Button Margin="3" Grid.Column="0" Click="Button_Click_CapsLock">
                     <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
@@ -210,11 +203,11 @@
 
             <Grid Grid.Row="3">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="2*"/>
-                    <ColumnDefinition Width="4*"/>
+                    <ColumnDefinition Width="1.5*"/>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5*"/>
                     <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1.5*"/>
                 </Grid.ColumnDefinitions>
                 <Button Margin="3" Grid.Column="0" Command="{Binding SwitchToRuKeyboard, ElementName=keyboardEng}">
                     <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
@@ -223,12 +216,12 @@
                 </Button>
                 <Button Margin="3" Grid.Column="1" Click="Button_Click_Space">
                     <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                        <TextBlock Text="␣" Height="18" />
+                        <TextBlock Text="." Height="18" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="2" Click="Button_Click_Key">
                     <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                        <TextBlock Text="." Height="18" />
+                        <TextBlock Text="␣" Height="18" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="3" Click="Button_Click_Key">
