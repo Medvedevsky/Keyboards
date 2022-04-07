@@ -215,7 +215,7 @@
                 <TextBlock Text="⮉"/>
             </Viewbox>
         </Button>
-        <Button Grid.Column="9" Grid.Row="3"  Margin="3"  Command="{Binding SwinchToSymbolKeyboard, ElementName=KeyboardRU}">
+        <Button Grid.Column="9" Grid.Row="3"  Margin="3"  Command="{Binding SwitchToSymbolKeyboard, ElementName=KeyboardRU}">
             <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <TextBlock Text="?123"/>
             </Viewbox>

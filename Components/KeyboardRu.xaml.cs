@@ -24,10 +24,10 @@ namespace WpfApp.Components
             set { SetValue(SwitchToEngKeyboardProperty, value); }
         }
 
-        public ICommand SwinchToSymbolKeyboard
+        public ICommand SwitchToSymbolKeyboard
         {
-            get { return (ICommand)GetValue(SwinchToSymbolKeyboardProperty); }
-            set { SetValue(SwinchToSymbolKeyboardProperty, value); }
+            get { return (ICommand)GetValue(SwitchToSymbolKeyboardProperty); }
+            set { SetValue(SwitchToSymbolKeyboardProperty, value); }
         }
 
         public string KeyboardRuInput
@@ -45,9 +45,9 @@ namespace WpfApp.Components
                 new PropertyMetadata(null));
 
 
-        public static readonly DependencyProperty SwinchToSymbolKeyboardProperty =
+        public static readonly DependencyProperty SwitchToSymbolKeyboardProperty =
             DependencyProperty.Register(
-                "SwinchToSymbolKeyboard",
+                "SwitchToSymbolKeyboard",
                 typeof(ICommand),
                 typeof(KeyboardRu),
                 new PropertyMetadata(null));
