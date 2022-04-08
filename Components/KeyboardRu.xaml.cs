@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -15,7 +14,7 @@ namespace WpfApp.Components
         public KeyboardRu()
         {
             InitializeComponent();
-          
+
         }
 
         public ICommand SwitchToEngKeyboard
@@ -75,10 +74,11 @@ namespace WpfApp.Components
 
             foreach (Button buttonKey in buttonList)
             {
-                Viewbox viewBox = (Viewbox)buttonKey.Content;
-                TextBlock keyContent = (TextBlock)viewBox.Child;
-
-                keyContent.Text = isCapsLock == true ? keyContent.Text.ToUpper() : keyContent.Text.ToLower();
+                if(buttonKey.Content is Viewbox viewBox)
+                {
+                    TextBlock keyContent = (TextBlock)viewBox.Child;
+                    keyContent.Text = isCapsLock == true ? keyContent.Text.ToUpper() : keyContent.Text.ToLower();
+                }
             }
         }
 
