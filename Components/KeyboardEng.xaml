@@ -38,52 +38,52 @@
                 </Grid.ColumnDefinitions>
                 <Button Margin="3" Grid.Column="0" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="q" Height="18" />
+                        <TextBlock Text="q" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="1" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="w" Height="18" />
+                        <TextBlock Text="w" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="2" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="e" Height="18" />
+                        <TextBlock Text="e" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="3" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="r" Height="18" />
+                        <TextBlock Text="r" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="4" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="t" Height="18" />
+                        <TextBlock Text="t" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="5" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="y" Height="18" />
+                        <TextBlock Text="y" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="6" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="u" Height="18" />
+                        <TextBlock Text="u" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="7" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="i" Height="18" />
+                        <TextBlock Text="i" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="8" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="o" Height="18" />
+                        <TextBlock Text="o" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="9" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="p" Height="18" />
+                        <TextBlock Text="p" />
                     </Viewbox>
                 </Button>
             </Grid>
@@ -104,47 +104,47 @@
                 </Grid.ColumnDefinitions>
                 <Button Margin="3" Grid.Column="1" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="a" Height="18" />
+                        <TextBlock Text="a" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="2" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="s" Height="18" />
+                        <TextBlock Text="s" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="3" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="d" Height="18" />
+                        <TextBlock Text="d" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="4" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="f" Height="18" />
+                        <TextBlock Text="f" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="5" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="g" Height="18" />
+                        <TextBlock Text="g" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="6" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="h" Height="18" />
+                        <TextBlock Text="h" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="7" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="j" Height="18" />
+                        <TextBlock Text="j" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="8" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="k" Height="18" />
+                        <TextBlock Text="k" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="9" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}"> 
                     <Viewbox>
-                        <TextBlock Text="l" Height="18" />
+                        <TextBlock Text="l" />
                     </Viewbox>
                 </Button>
             </Grid>
@@ -166,37 +166,37 @@
                 </Button>
                 <Button Margin="3" Grid.Column="1" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="z" Height="18" />
+                        <TextBlock Text="z" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="2" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="x" Height="18" />
+                        <TextBlock Text="x" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="3" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="c" Height="18" />
+                        <TextBlock Text="c" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="4" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="v" Height="18" />
+                        <TextBlock Text="v" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="5" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="b" Height="18" />
+                        <TextBlock Text="b" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="6" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="n" Height="18" />
+                        <TextBlock Text="n" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="7" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="m" Height="18" />
+                        <TextBlock Text="m" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="8" Click="Button_Click_Delete" Style="{DynamicResource KeyboardButtonStyle}">
@@ -214,22 +214,22 @@
                 </Grid.ColumnDefinitions>
                 <Button Margin="3" Grid.Column="0" Command="{Binding SwitchToRuKeyboard, ElementName=keyboardEng}" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="🌐" Height="18" />
+                        <TextBlock Text="🌐" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="1" Click="Button_Click_Space" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="." Height="18" />
+                        <TextBlock Text="." />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="2" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="␣" Height="18" />
+                        <TextBlock Text="␣" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="3" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
-                        <TextBlock Text="@" Height="18" />
+                        <TextBlock Text="@" />
                     </Viewbox>
                 </Button>
                 <Button Margin="3" Grid.Column="4" Command="{Binding SwitchToSymbolKeyboard, ElementName=keyboardEng}" Style="{DynamicResource KeyboardButtonStyle}">
