@@ -221,9 +221,7 @@
              <ContentControl Content="{StaticResource CapsLockButtonIcon}"/>
         </Button>
         <Button Grid.Column="9" Grid.Row="3"  Margin="3"  Command="{Binding SwitchToSymbolKeyboard, ElementName=KeyboardRU}" Style="{DynamicResource KeyboardButtonStyle}">
-            <Viewbox >
-                <TextBlock Text="?123"/>
-            </Viewbox>
+            <ContentControl Content="{StaticResource SymbolsKeyboardButtonIcon}"/>
         </Button>
         <Button Grid.Column="10" Grid.Row="3" Grid.ColumnSpan="2" Margin="3"  Click="Button_Click_Delete" Style="{DynamicResource KeyboardButtonStyle}">
             <ContentControl Content="{StaticResource DeleteButtonIcon}"/>

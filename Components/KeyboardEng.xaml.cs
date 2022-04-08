@@ -81,7 +81,6 @@ namespace WpfApp.Components
 
         private void Button_Click_CapsLock(object sender, RoutedEventArgs e)
         {
-
             isCapsLock = !isCapsLock;
             List<Grid> gridsList = mainGrid.Children.OfType<Grid>().ToList();
 
