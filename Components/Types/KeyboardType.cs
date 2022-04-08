@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WpfApp.Components.Enums
+namespace WpfApp.Components.Types
 {
-    public enum KeyboardType
+    enum KeyboardType
     {
         KeyboardRu = 0,
         SymbolsKeyboard,

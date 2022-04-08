@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
-using WpfApp.Components.Enums;
+using WpfApp.Components.Types;
 
 namespace WpfApp.Components
 {
