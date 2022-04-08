@@ -91,10 +91,11 @@ namespace WpfApp.Components
 
                 foreach (Button buttonKey in buttonList)
                 {
-                    Viewbox viewBox = (Viewbox)buttonKey.Content;
-                    TextBlock keyContent = (TextBlock)viewBox.Child;
-
-                    keyContent.Text = isCapsLock == true ? keyContent.Text.ToUpper() : keyContent.Text.ToLower();
+                    if (buttonKey.Content is Viewbox viewBox)
+                    {
+                        TextBlock keyContent = (TextBlock)viewBox.Child;
+                        keyContent.Text = isCapsLock == true ? keyContent.Text.ToUpper() : keyContent.Text.ToLower();
+                    }
                 }
             }
         }
