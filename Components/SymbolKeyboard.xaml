@@ -7,8 +7,14 @@
              mc:Ignorable="d"
              x:Name="symbolKeyboard"
              d:DesignHeight="350" d:DesignWidth="1000">
-
-        <Grid IsVisibleChanged="Grid_IsVisibleChanged">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="../ResourceDictionaries/KeyboardIcons.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid IsVisibleChanged="Grid_IsVisibleChanged">
 
             <Grid.RowDefinitions>
                 <RowDefinition></RowDefinition>
@@ -197,9 +203,7 @@
                 </Viewbox>
             </Button>
             <Button Grid.Column="8" Grid.Row="3" Grid.ColumnSpan="2" Margin="3"  Click="Button_Click_Delete">
-                <Viewbox Stretch="Uniform" VerticalAlignment="Center" HorizontalAlignment="Center">
-                    <TextBlock Text="⌫"/>
-                </Viewbox>
+                <ContentControl Content="{StaticResource DeleteButtonIcon}"
             </Button>
 
         </Grid>
