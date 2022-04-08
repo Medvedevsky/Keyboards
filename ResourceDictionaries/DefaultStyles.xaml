@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <SolidColorBrush x:Key="KeyboardBackgroundBrush" Color="#2f2f2f"/>
+    <SolidColorBrush x:Key="KeyboardBackgroundAccentBrush" Color="#FFA0A0A0"/>
+    <SolidColorBrush x:Key="KeyboardForegroundBrush" Color="Black"/>
+    <sys:Double x:Key="KeyboardIconSize">50</sys:Double>
+
+    <Style x:Key="KeyboardButtonStyle" TargetType="{x:Type Button}" BasedOn="{StaticResource {x:Type Button}}">
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <!--<Setter Property="Background" Value="{StaticResource KeyboardBackgroundBrush}"/>
+        <Setter Property="Foreground" Value="{StaticResource KeyboardForegroundBrush}"/>-->
+        <Setter Property="Focusable" Value="False"/>
+        <Setter Property="Margin" Value="5" />
+        <Setter Property="Height" Value="Auto"/>
+        <Setter Property="Width" Value="Auto" />
+        <Setter Property="BorderBrush" Value="Black"/>
+    </Style>
+
+    <Style x:Key="KeyboardRepeatButtonStyle" TargetType="{x:Type RepeatButton}">
+        <Setter Property="FontSize" Value="30"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <!--<Setter Property="Background" Value="{StaticResource KeyboardBackgroundBrush}"/>
+        <Setter Property="Foreground" Value="{StaticResource KeyboardForegroundBrush}"/>-->
+        <Setter Property="Focusable" Value="False"/>
+        <Setter Property="Margin" Value="5" />
+        <Setter Property="Height" Value="Auto"/>
+        <Setter Property="Width" Value="Auto" />
+    </Style>
+
+</ResourceDictionary>
