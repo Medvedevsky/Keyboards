@@ -203,8 +203,8 @@
                 </Viewbox>
             </Button>
             <Button Grid.Column="8" Grid.Row="3" Grid.ColumnSpan="2" Margin="3"  Click="Button_Click_Delete">
-                <ContentControl Content="{StaticResource DeleteButtonIcon}"
-            </Button>
+            <ContentControl Content="{StaticResource DeleteButtonIcon}"/>
+        </Button>
 
         </Grid>
 
