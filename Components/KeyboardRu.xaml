@@ -218,7 +218,7 @@
             </Viewbox>
         </Button>
         <Button Grid.Column="7" Grid.Row="3" Grid.ColumnSpan="2" Margin="3"  Click="Button_Click_CapsLock" Style="{DynamicResource KeyboardButtonStyle}">
-             <ContentControl Content="{StaticResource CapsLockButtonIcon}"/>
+             <ContentControl Content="{StaticResource CapsLockButtonIconRu}"/>
         </Button>
         <Button Grid.Column="9" Grid.Row="3"  Margin="3"  Command="{Binding SwitchToSymbolKeyboard, ElementName=KeyboardRU}" Style="{DynamicResource KeyboardButtonStyle}">
             <ContentControl Content="{StaticResource SymbolsKeyboardButtonIcon}"/>

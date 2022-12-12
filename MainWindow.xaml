@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp"
         xmlns:uc="clr-namespace:WpfApp.Components"
         mc:Ignorable="d"
-        Title="MainWindow" Height="644" Width="1000">
+        Title="KeyboardsApp" Height="644" Width="1000">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -21,7 +21,8 @@
                  Height="50" 
                  VerticalAlignment="Bottom" 
                  Text="{Binding KeyboardInput, ElementName=keyboard, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
-                 TextChanged="TextBox_TextChanged"/>
+                 TextChanged="TextBox_TextChanged"
+                 FontSize="30"/>
         
     </Grid>
 </Window>

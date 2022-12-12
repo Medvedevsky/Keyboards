@@ -2,8 +2,6 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <Style TargetType="Viewbox">
-        <!--<Setter Property="Width" Value="{DynamicResource KeyboardIconSize}"/>
-        <Setter Property="Height" Value="{DynamicResource KeyboardIconSize}"/>-->
         <Setter Property="Stretch" Value="Uniform"/>
         <Setter Property="VerticalAlignment" Value="Center"/>
         <Setter Property="HorizontalAlignment" Value="Center"/>
@@ -19,15 +17,29 @@
         </Canvas>
     </Viewbox>
 
-    <Viewbox x:Key="CapsLockButtonIcon">
+    <!--<Viewbox x:Key="CapsLockButtonIcon">
         <Canvas Width="24" Height="28">
             <Path Canvas.Top="2" Data="M15,18V12H17.17L12,6.83L6.83,12H9V18H15M12,4L22,14H17V20H7V14H2L12,4Z"/>
         </Canvas>
+    </Viewbox>-->
+    
+
+    <Viewbox x:Key="CapsLockButtonIconEng">
+        <Canvas Width="30" Height="28">
+            <TextBlock Canvas.Top="4" Text="caps" FontSize="17"/>
+        </Canvas>
     </Viewbox>
 
+    <Viewbox x:Key="CapsLockButtonIconRu">
+        <Canvas Width="35" Height="28">
+            <TextBlock Canvas.Top="4" Text="caps" FontSize="17"/>
+        </Canvas>
+    </Viewbox>
+
+
     <Viewbox x:Key="SymbolsKeyboardButtonIcon">
-        <Canvas Height="22" Width="32">
-            <TextBlock Canvas.Bottom="1" Text="?123" FontSize="15"/>
+        <Canvas Height="30" Width="28">
+            <TextBlock Canvas.Bottom="4" Text="?123" FontSize="15"/>
         </Canvas>
     </Viewbox>
     

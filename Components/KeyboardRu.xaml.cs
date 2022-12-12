@@ -77,7 +77,10 @@ namespace WpfApp.Components
                 if(buttonKey.Content is Viewbox viewBox)
                 {
                     TextBlock keyContent = (TextBlock)viewBox.Child;
-                    keyContent.Text = isCapsLock == true ? keyContent.Text.ToUpper() : keyContent.Text.ToLower();
+                    if (keyContent.Text != "CapsLock")
+                    {
+                        keyContent.Text = isCapsLock == true ? keyContent.Text.ToUpper() : keyContent.Text.ToLower();
+                    }
                 }
             }
         }
