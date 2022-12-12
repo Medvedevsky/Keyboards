@@ -217,12 +217,12 @@
                         <TextBlock Text="🌐" />
                     </Viewbox>
                 </Button>
-                <Button Margin="3" Grid.Column="1" Click="Button_Click_Space" Style="{DynamicResource KeyboardButtonStyle}">
+                <Button Margin="3" Grid.Column="1" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
                         <TextBlock Text="." />
                     </Viewbox>
                 </Button>
-                <Button Margin="3" Grid.Column="2" Click="Button_Click_Key" Style="{DynamicResource KeyboardButtonStyle}">
+                <Button Margin="3" Grid.Column="2" Click="Button_Click_Space" Style="{DynamicResource KeyboardButtonStyle}">
                     <Viewbox>
                         <TextBlock Text="␣" />
                     </Viewbox>
