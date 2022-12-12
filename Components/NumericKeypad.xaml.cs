@@ -22,7 +22,7 @@ namespace WpfApp.Components
                 "KeyboardNumericInput", 
                 typeof(string), 
                 typeof(NumericKeypad), 
-                new PropertyMetadata(0));
+                new PropertyMetadata(""));
 
 
         private void Button_Click_Key(object sender, RoutedEventArgs e)

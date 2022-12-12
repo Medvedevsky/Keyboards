@@ -39,8 +39,8 @@
 
 
     <Viewbox x:Key="SymbolsKeyboardButtonIcon">
-        <Canvas Height="30" Width="30">
-            <TextBlock Canvas.Bottom="4" Text="?123" FontSize="15"/>
+        <Canvas Height="30" Width="31">
+            <TextBlock Canvas.Bottom="4" Text="?123" FontSize="16"/>
         </Canvas>
     </Viewbox>
     
