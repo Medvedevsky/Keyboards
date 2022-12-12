@@ -24,21 +24,22 @@
     </Viewbox>-->
     
 
+    <!--Дичайший костыль, пофиксить-->
     <Viewbox x:Key="CapsLockButtonIconEng">
-        <Canvas Width="30" Height="28">
+        <Canvas Width="35" Height="28">
             <TextBlock Canvas.Top="4" Text="caps" FontSize="17"/>
         </Canvas>
     </Viewbox>
 
     <Viewbox x:Key="CapsLockButtonIconRu">
-        <Canvas Width="35" Height="28">
+        <Canvas Width="30" Height="28">
             <TextBlock Canvas.Top="4" Text="caps" FontSize="17"/>
         </Canvas>
     </Viewbox>
 
 
     <Viewbox x:Key="SymbolsKeyboardButtonIcon">
-        <Canvas Height="30" Width="28">
+        <Canvas Height="30" Width="30">
             <TextBlock Canvas.Bottom="4" Text="?123" FontSize="15"/>
         </Canvas>
     </Viewbox>
