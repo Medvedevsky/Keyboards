@@ -13,7 +13,7 @@ All keyboards you can find in /Components folder
 <img src=https://github.com/Medvedevsky/Keyboards/blob/image-branch/Keyboards/Resources/Images/SymbolKeypad.png width="500">
 
 ### Numeric keyboards 
-<img src=https://github.com/Medvedevsky/Keyboards/blob/image-branch/Keyboards/Resources/Images/NumericKeypad.png width="250">
+<img src=https://github.com/Medvedevsky/Keyboards/blob/image-branch/Keyboards/Resources/Images/NumericKeypad.png width="200">
 
 
 
